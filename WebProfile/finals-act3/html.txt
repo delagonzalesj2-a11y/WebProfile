@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jQuery.com/jQuery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<style>
+    body{
+        margin-top: 50px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .card{
+        padding: 20px;
+        background-color: #99c5f8;
+        margin-left: 500px;
+        margin-right: 500px;
+        border: solid 3px #9085f3;
+        text-align: center;
+        border-radius: 20px;
+        font-size: large; 
+
+
+    }
+    button{
+        border: none; 
+        background-color: #9bf0cf;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin: 20px;
+        font-weight: 400;
+        font-size: larger;
+        color: #df4d59;
+    }
+    .btn2:hover{
+        color:#bf9cff;
+        border: solid 3px #86ee82;
+    }
+    #btn1:hover{
+        color:#280a61;
+        border: solid 3px #86ee82;
+    }
+    .link{
+        text-decoration: none;
+        color: #44f871;
+    }
+    
+    table{
+        border: solid 4px rgb(1, 76, 238);
+        
+    }
+</style>
+
+<div class="card">
+    <h1 id="Title"> Hello BSCS31A</h1>
+    <p id="message">Output:</p>
+    <a class="link" href="#">click me</a>
+    <p id="intro"> Welcom to jQuery</p>
+    <input type="text" id="name" placeholder="enter your name">
+    <p id="mess">hello</p>
+    <br>
+    <select id="course">
+        <option value="BSIT" >BSIT</option>
+        <option value="BSCS" >BSCS</option>
+        <option value="BSTS" >BSTS</option>
+    </select>
+    <br><br>
+    <table border="2" align="center" id="tab">
+        <th>sample data</th>
+        <th>sample data</th>
+        <th>sample data</th>
+        <th>sample data</th>
+        <th>sample data</th>
+        <tr>
+            <td>data1</td>
+            <td>data1</td>
+            <td>data1</td>
+            <td>data1</td>
+            <td>data1</td>
+        </tr>
+        <tr>
+            <td>data2</td>
+            <td>data2</td>
+            <td>data2</td>
+            <td>data2</td>
+            <td>data2</td>
+        </tr>
+        <tr>
+            <td>data3</td>
+            <td>data3</td>
+            <td>data3</td>
+            <td>data3</td>
+            <td>data3</td>
+        </tr>
+        <tr>
+            <td>data4</td>
+            <td>data4</td>
+            <td>data4</td>
+            <td>data4</td>
+            <td>data4</td>
+        </tr>
+        <tr>
+            <td>data5</td>
+            <td>data5</td>
+            <td>data5</td>
+            <td>data5</td>
+            <td>data5</td>
+        </tr>
+    </table>
+    <br><br>
+    <button id="btn1"> click me</button>
+    <button class="btn2">sample button</button>
+    <ul>
+        <li>pine apple</li>
+        <li>grapes</li>
+    </ul>
+    <ul>
+        <li>green</li>
+        <li>blue</li>
+
+    </ul>
+    
+    
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+.dark-mode{
+    background-color: rgb(77, 77, 77);
+    color: aliceblue;
+    
+
+}
+.dark-mode #studentForm{
+    background-color: rgb(71, 104, 141);
+    color: aliceblue;
+    border: solid 1px rgb(150, 145, 145);
+
+}
+.dark-mode button{
+    border: solid 1px rgb(150, 145, 145);
+
+    background-color: rgb(20, 66, 119);
+    color: aliceblue;
+    box-shadow: 5px 10px 0px rgb(89, 92, 99)
+    
+
+    
+}
+.dark-mode button:hover{
+    background-color: rgb(87, 145, 211);
+    color: rgb(9, 14, 19);
+    border: solid 1px rgb(150, 145, 145);
+
+}
+
+.dark-mode table{
+    background-color: rgb(30, 57, 99);
+    color: rgb(229, 255, 255);
+    border: solid 1px rgb(150, 145, 145);
+
+}
+#card{
+   width: 500px;
+   text-align: left;
+
+}
+form{
+
+  background-color: aliceblue;
+  padding: 30px;
+  margin: 30px;
+  line-height: 1.5;
+  box-shadow: 6px 9px 0px rgb(65, 61, 61);
+  border: solid 2px rgb(124, 125, 126);
+}
+.btn{
+    margin-top: 20px;
+}
+button{ 
+    background-color: rgb(168, 213, 240);
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px ;
+    border: solid 1px;
+
+    
+}
+button:hover{
+   
+    background-color: rgb(14, 62, 92);
+    color: aliceblue;
+    box-shadow: 7px 11px 0px rgb(65, 61, 61);
+   
+    
+}
+table{
+    border: solid 2px;
+    background-color: rgb(190, 208, 236);
+    text-align: center;
+
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+select{
+    width: 150px;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+    
+}

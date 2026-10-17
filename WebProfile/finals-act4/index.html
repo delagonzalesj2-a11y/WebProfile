@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jQuery.com/jQuery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+<div class="btn">
+    <button id="dark">Dark Mode</button>
+    <button id="light">Original Mode</button>   
+
+</div>
+
+
+</center>
+    <br>
+<center>
+
+<div id="card" >
+<form id="studentForm" >
+<label >First Name: </label>
+<input type="text" id="firstname" required>
+<br>
+<label >Last Name: </label>
+<input type="text" id="lastname" required> 
+<br>
+<label>Student Number: </label>
+<input type="text" id="studentNumber" required>
+<br>
+    
+
+
+<label for="">COURSE</label>
+<select name="" id="course">
+<option value="BSCS">BSCS</option>
+<option value="BSIT">BSIT</option>
+<option value="BSTM">BSTM</option>
+<option value="BSHM">BSHM</option>
+</select>
+
+<button id="submit">Submit Form</button>
+</form>
+</div>
+
+</center>
+
+<center>
+    <h1>Student List</h1>
+    <table  id="Student_table"border="solid 2px"  >
+
+        <thead>
+            <tr>
+                <th>Student Number</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody id="studentList">
+            <tr>
+                <td>001</td>
+                <td>Erson</td>
+                <td>Quilala</td>
+                <td>BSCS</td>
+            </tr>
+
+             <tr>
+                <td>002</td>
+                <td>Jez</td>
+                <td>Dela Cruz</td>
+                <td>BSCS</td>
+            </tr>
+
+             <tr>
+                <td>003</td>
+                <td>Pomelo</td>
+                <td>Cat</td>
+                <td>Pet</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="message"></p>
+    </center>
+   
+
+    
+
+
+</body>
+
+
+
+</html>

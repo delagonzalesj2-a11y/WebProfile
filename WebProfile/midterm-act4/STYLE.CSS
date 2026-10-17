@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    background-color: rgb(79, 145, 88);
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(94, 185, 121);
+ 
+}
+
+#content{
+    margin: 5px;
+    display: flex;
+    padding: 30px;
+}
+section{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(133, 197, 96);
+    flex: 8;
+
+}
+aside{
+    padding: 30px;
+    background-color: rgb(187, 140, 102);
+    flex: 5;
+}
+nav{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(127, 231, 150);
+    text-decoration: none;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    pointer-events: stroke;
+    padding: 10px;
+    font-size: large;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(206, 159, 102);
+    padding: 30px;
+    
+}
+.res{
+    background-color: rgb(122, 196, 214);
+    padding: 10px;
+    margin: 20px;
+}
+.box{
+    margin: 100px;
+    padding: 40px;
+    background-color: antiquewhite;
+    display: flex;
+    border-radius: 20px;
+    
+
+}
+.info{
+    padding: 40px;
+    flex: 5;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.photo{
+    
+    padding:30px;
+    width: 100px;
+    height: 100px ;
+}
+.table{
+    padding: 30px;
+    text-align: center;
+}
+.tab{
+    padding:20px;
+}
+.res{
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 100px;
+}

@@ -1,0 +1,66 @@
+$(document).ready(function(){
+        $("#Title").text("Good Morning")
+        $("p").css("color","red")
+        $("p.intro").css("color","red")
+
+        //$("*").css("background","cyan")
+
+        
+        $(".btn2").click(function(){
+            $(this).css("background","cyan")
+        })
+        $(".btn2").dblclick(function(){
+            $(this).css("background","#9bf0cf")
+        })
+        $("[html]").css("color","#ff8933")
+        
+        $("ul li:first-child").css("color","green")
+
+        $("tr:even").css("background","pink")
+        $("tr:odd").css("background","green")
+        
+        $("#btn1").click(function(){
+            $("#message").text("You click the button!")
+        })
+        $("#btn1").dblclick(function(){
+            $("#message").text("you double click the button!!")
+        })
+        $("#btn1").mouseenter(function(){
+            $("#message").text("your mouse reach the button")
+        })
+        $("#btn1").mouseleave(function(){
+            $("#message").text("your mouse left the button")
+        })
+
+        
+        $("#btn1").mousedown(function(){
+            $(this).css("background","#f0a3d9")
+        })
+        $("#btn1").mouseup(function(){
+            $(this).css("background","#44f871")
+        })
+
+
+        $(".btn2").mouseenter(function(){
+            $("#message").text("wrong button")
+        })
+        $("#name").focus(function(){
+            $("#message").text("you select the text box")
+            $(this).css("background","#f0a3d9")
+        })
+        $("#name").blur(function(){
+            $("#message").text("you left the text box")
+            $(this).css("background","#9df5b3")
+        })
+
+        $("#course").change(function(){
+            $("#mess").text($(this).val())
+        })
+        
+        $(".btn2").click(function(){
+            $("#tab").hide("slow")
+        })
+        $(".btn2").dblclick(function(){
+            $("#tab").show(2000)
+        })
+})

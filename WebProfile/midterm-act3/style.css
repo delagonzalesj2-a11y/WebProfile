@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: #457B9D;
+}
+#header{
+    color: aliceblue;
+    background-color: #8B1E2D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px; 
+    text-align: center;
+    margin: 0;
+}
+nav{
+    
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E63946;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+   
+
+}
+.nav{
+    align-content: center;
+}
+.logo{
+    justify-content: flex-start;
+    border-radius: 50%;
+    margin: 20px
+}
+.logo img{
+   border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+#home{
+    background-color: #F4D35E;
+    display: flex;
+
+}
+.home1{
+    align-content: center ;
+    padding: 40px;
+}
+.home2{
+    margin:10px;
+    justify-content: flex-end;
+}
+.home2 img{
+    border-radius: 20%;
+    width: 200px;
+    height: 250px;
+}
+.fried_rice img{
+    width: 150px;
+    height: 200px;
+}
+.box1{
+    margin: 20px ;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    display: flex;
+    background-color: #e9eb94;
+    line-height: 1;
+    font-size: 13px;
+
+}
+#about{
+    font-size: 18px;
+    background-color: #E63946;
+    padding:50px;
+    color: white;
+}
+
+
+
+
